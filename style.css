@@ -8,6 +8,140 @@ body {
     background-image: url('beach.JPG');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
+    /* background-repeat: no-repeat; */
+    font-family: 'Pixelify Sans', cursive;
+}
+
+h1 {
+    font-family: 'Pixelify Sans', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: blanchedalmond;
+}
+
+h3 {
+    /* font-family: 'Pixelify Sans', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: blanchedalmond; */
+
+    margin-top: 50px;
+}
+
+pokeDisplay {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+}
+
+container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1rem;
+    font-size: 2rem;
+    color: aquamarine;
+}
+
+.pokeCard {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+search {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    text-align: center;
+}
+
+input {
+    /* padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 10px; */
+
+    min-width: 20%;
+    font-size: 30px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.card {
+    /* 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+
+    background-color: royalblue;
+    margin: 20px;
+    position: relative;
+    border: black 10px solid;
+    border-radius: 20px;
+}
+
+
+.name_card {
+    /* font-size: 30px;
+    font-family: 'Pixelify Sans', cursive;
+    color: white;
+    text-align: center;
+    margin: 10px; */
+
+    background-color: saddlebrown;
+    height: 5vh;
+}
+
+.btn {
+    /* padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 10px; */
+
+    /* background-color: darkorange;
+    color: white;
+    font-size: 30px;
+    font-family: 'Pixelify Sans', cursive;
+    border-radius: 10px;
+    border: none;
+    margin: 10px; */
+
+    width: 6rem;
+    height: 3rem;
+    color: tomato;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pokeDisplay img {
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+
+    width: 100%;
+    object-fit: contain;
+    background-repeat: space round;
+    height: 200px;
+    padding: 1rem;
 }
