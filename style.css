@@ -106,8 +106,9 @@ input {
     text-align: center;
     margin: 10px; */
 
-    background-color: saddlebrown;
+    background-color: rgb(208, 189, 176);
     height: 5vh;
+    color: rgb(229, 14, 14);
 }
 
 .btn {
