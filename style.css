@@ -5,11 +5,12 @@
 }
 
 body {
-    background-image: url('beach.JPG');
+    /* background-image: url('beach.JPG');
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     /* background-repeat: no-repeat; */
     font-family: 'Pixelify Sans', cursive;
+    background-color: rgb(136, 78, 190);
 }
 
 h1 {
