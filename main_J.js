@@ -14,6 +14,7 @@ const fetchData = async () => {
                     id: data.id,
                     name: data.name,
                     img: data.sprites.other['showdown'].back_shiny,
+                    img2: data.sprites.other['official-artwork'].front_default,
                     types: data.types,
                     height: data.height,
                     weight: data.weight,
@@ -38,8 +39,10 @@ const pokeCards = (all) => {
         return `<div class="card">
         <p
         >#${pokemon.id}</p>
+        <div>
+        <img src="${pokemon.img2}" alt="${pokemon.name}"/>
         <img src="${pokemon.img}" alt="${pokemon.name}"/>
-        
+        </div>
         <h3 class="name_card">${pokemon.name.toUpperCase()}</h3>
         <div>
         <span${pokemonTypes.join(' ')}</span>

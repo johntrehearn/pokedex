@@ -47,6 +47,7 @@ const pokeCards = (all) => {
       >#${pokemon.id}</p>
       <img src="${pokemon.img}" alt="${pokemon.name}"/>
       
+      
       <h3 class="name_card">${pokemon.name}</h3>
       <div>
       <span${pokemonTypes.join(' ')}</span>
